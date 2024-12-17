@@ -97,25 +97,7 @@ class Program
     }
 
     static string ChooseWinner(string player1, string player2)
-    {
-        if (choice1 == choice2)
-        {
-            Console.WriteLine($"Match: {player1} vs {player2} - It's a draw! {player1} proceeds by default.");
-            return player1; // Avanzar arbitrariamente al primero en caso de empate
-        }
-        else if ((choice1 == "rock" && choice2 == "scissors") ||
-                 (choice1 == "scissors" && choice2 == "paper") ||
-                 (choice1 == "paper" && choice2 == "rock"))
-        {
-            Console.WriteLine($"Match: {player1} vs {player2} - {player1} wins!");
-            return player1;
-        }
-        else
-        {
-            Console.WriteLine($"Match: {player1} vs {player2} - {player2} wins!");
-            return player2;
-        }
-    }
+    {}
 }
 
 
